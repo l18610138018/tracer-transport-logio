@@ -1,6 +1,6 @@
 /**
- * Log.io transport for Tracer.
- *     Helps view your logs in a web browser
+ * Log.io transport for Tracer. Helps to view your logs inside a web browser in realtime.
+ * Inspire by winston-logio (https://github.com/jaakkos/winston-logio).
  */
 var os = require('os'),
     net = require('net'),
@@ -141,5 +141,3 @@ Logio.prototype.transporter = function(data) {
     logio.log(data.level, data.output, function() {});
     console.log(data.output);
 };
-
-module.exports = Logio;
