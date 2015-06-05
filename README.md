@@ -14,13 +14,7 @@ A [Log.io](https://github.com/NarrativeScience/Log.io) transport for [Tracer](ht
 	    transport: logio.transporter    
 	});
 
-	logger.json = function() {
-	    for (var key in arguments) {
-	        this.info(JSON.stringify(arguments[key], null, 2));
-	    }
-	};
-
-	module.exports = logger;
+	logger.log("This will be printed to console & sent to log.io");
 
 ```
 
