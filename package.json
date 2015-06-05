@@ -1,0 +1,17 @@
+{
+  "name": "tracer-transport-logio",
+  "version": "0.0.1",
+  "description": "A Log.io transport for tracer(https://www.npmjs.com/package/tracer) logger.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec tests/*"
+  },
+  "keywords": [
+    "tracer",
+    "logger",
+    "logio",
+    "console.log"
+  ],
+  "author": "Varun Oberoi",
+  "license": "Unlicense"
+}
